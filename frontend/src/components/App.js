@@ -12,8 +12,8 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <AppContent />
             <AuthContent />
+            <AppContent />
           </div>
         </div>
       </div>
