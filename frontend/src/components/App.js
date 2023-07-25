@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './Header';
 import AppContent from './AppContent';
+import AuthContent from './AuthContent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="row">
           <div className="col">
             <AppContent />
+            <AuthContent />
           </div>
         </div>
       </div>
